@@ -7,16 +7,20 @@ Q1) What is AWS?
 Answer:AWS stands for Amazon Web Services. AWS is a platform that provides on-demand
 resources for hosting web services, storage, networking, databases and other resources over the
 internet with a pay-as-you-go pricing.
+
 Q2) What are the components of AWS?
 Answer:EC2 – Elastic Compute Cloud, S3 – Simple Storage Service, Route53, EBS – Elastic Block
 Store, Cloudwatch, Key-Paris are few of the components of AWS.
+
 Q3) What are key-pairs?
 Answer:Key-pairs are secure login information for your instances/virtual machines. To connect to the
 instances we use key-pairs that contain a public-key and private-key.
+
 Q4) What is S3?
 Answer:S3 stands for Simple Storage Service. It is a storage service that provides an interface that
 you can use to store any amount of data, at any time, from anywhere in the world. With S3 you pay
 only for what you use and the payment model is pay-as-you-go.
+
 Q5) What are the pricing models for EC2instances?
 Answer:The different pricing model for EC2 instances are as below,
 • On-demand
@@ -24,12 +28,15 @@ Answer:The different pricing model for EC2 instances are as below,
 • Spot
 • Scheduled
 • Dedicated
+
 Q6) What are the types of volumes for EC2 instances?
 
 Answer:
 • There are two types of volumes,
 • Instance store volumes
 • EBS – Elastic Block Stores
+
+
 Q7) What are EBS volumes?
 Answer:EBS stands for Elastic Block Stores. They are persistent volumes that you can attach to the
 instances. With EBS volumes, your data will be preserved even when you stop your instances, unlike
@@ -42,6 +49,7 @@ Answer:Following are the types of volumes in EBS,
 • Magnetic
 • Cold HDD
 • Throughput optimized
+
 Q9) What are the different types of instances?
 Answer: Following are the types of instances,
 • General purpose
@@ -49,48 +57,65 @@ Answer: Following are the types of instances,
 • Storage Optimized
 • Memory Optimized
 • Accelerated Computing
+
 Q10) What is an auto-scaling and what are the components?
 Answer: Auto scaling allows you to automatically scale-up and scale-down the number of instances
 depending on the CPU utilization or memory utilization. There are 2 components in Auto scaling, they
 are Auto-scaling groups and Launch Configuration.
+
+
 Q11) What are reserved instances?
 Answer: Reserved instances are the instance that you can reserve a fixed capacity of EC2 instances. In
 reserved instances you will have to get into a contract of 1 year or 3 years.
+
 Q12)What is an AMI?
 Answer: AMI stands for Amazon Machine Image. AMI is a template that contains the software
 configurations, launch permission and a block device mapping that specifies the volume to attach to
 the instance when it is launched.
+
+
 Q13) What is an EIP?
 
 Answer: EIP stands for Elastic IP address. It is designed for dynamic cloud computing. When you
 want to have a static IP address for your instances when you stop and restart your instances, you will
 be using EIP address.
+
 Q14) What is Cloudwatch?
 Answer: Cloudwatch is a monitoring tool that you can use to monitor your various AWS resources.
 Like health check, network, Application, etc.
+
+
 Q15) What are the types in cloudwatch?
 Answer: There are 2 types in cloudwatch. Basic monitoring and detailed monitoring. Basic monitoring
 is free and detailed monitoring is chargeable.
+
 Q16) What are the cloudwatch metrics that are available for EC2 instances?
 Answer: Diskreads, Diskwrites, CPU utilization, networkpacketsIn, networkpacketsOut, networkIn,
 networkOut, CPUCreditUsage, CPUCreditBalance.
+
 Q17) What is the minimum and maximum size of individual objects that you can store in S3
 Answer: The minimum size of individual objects that you can store in S3 is 0 bytes and the maximum
 bytes that you can store for individual objects is 5TB.
+
 Q18) What are the different storage classes in S3?
 Answer: Following are the types of storage classes in S3,
 • Standard frequently accessed
 • Standard infrequently accessed • One-zone infrequently accessed.
 • Glacier
 • RRS – reduced redundancy storage
+
+
 Q19) What is the default storage class in S3?
 Answer: The default storage class in S3 in Standard frequently accessed.
+
 Q20) What is glacier?
 Answer: Glacier is the back up or archival tool that you use to back up your data in S3.
 Q21) How can you secure the access to your S3 bucket?
+
 Answer: There are two ways that you can control the access to your S3 buckets,
 • ACL – Access Control List
 • Bucket polices
+
 Q22) How can you encrypt data in S3?
 Answer: You can encrypt the data by using the below methods,
 • Server Side Encryption – S3 (AES 256 encryption)
@@ -117,10 +142,12 @@ contain that access that you have provided to the users that you have created. T
 policies.
 • Managed policies
 • Inline policies
+
 Q27) What is cloudfront?
 Answer: Cloudfront is an AWS web service that provided businesses and application developers an
 easy and efficient way to distribute their content with low latency and high data transfer speeds.
 Cloudfront is content delivery network of AWS.
+
 Q28) What are edge locations?
 Answer: Edge location is the place where the contents will be cached. When a user tries to access
 some content, the content will be searched in the edge location. If it is not available then the content
@@ -133,9 +160,11 @@ configuration. VPC is a network that is logically isolated from other network in
 
 you to have your own IP address range, subnets, internet gateways, NAT gateways and security
 groups.
+
 Q31) What is VPC peering connection?
 Answer: VPC peering connection allows you to connect 1 VPC with another VPC. Instances in these
 VPC behave as if they are in the same network.
+
 Q32) What are NAT gateways?
 Answer: NAT stands for Network Address Translation. NAT gateways enables instances in a private
 subnet to connect to the internet but prevent the internet from initiating a connection with those
